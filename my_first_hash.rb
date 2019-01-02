@@ -24,7 +24,6 @@ def retrieval
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
   shopping_manifest[:"oil paintings"]
-
 end
 
 def adding
@@ -35,7 +34,7 @@ def adding
                  }
 
   # add 2 muskets to the shipping_manifest hash below
-newitem = (muskets, "2")
+shipping_manifest["muskets"] = 2
 
 
 
